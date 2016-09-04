@@ -1,0 +1,163 @@
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">(Alain Armand) => {Programmer} </a>
+          <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active" role="presentation"><a href="#about">ABOUT </a></li>
+            <li role="presentation"><a href="#portfolio">PORTFOLIO </a></li>
+            <li role="presentation"><a href="#contact">CONTACT </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-xs-12">
+        <hr>
+      </div>
+     <div class="row">
+      <div class="jumbotron" id="about">
+        <div class="col-xs-7">
+          <h1>Programming </h1>
+          <p>Full Stack Web Developer. I love working with data, learning about programming and functional programming. Committed to coding and good useful products. </p>
+        </div>
+        <div class="col-xs-5">
+          <img class="img-circle img-responsive" src="http://res.cloudinary.com/klik-io/image/upload/v1466345761/profile-pic_lr9wcz.jpg">
+         </div><!--col-sx-5-->
+      </div><!--jumbotron-->
+    </div><!--row-->
+    <div class="row text-center" id="portfolio">
+      <div class="col-xs-12">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="row text-center">
+        <div class="col-xs-6">
+          <img class="img-responsive" src="images/placekitten.com-555-300.jpg" data-toggle="modal" alt="Kitty Placeholder" data-target="#appify1">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+        </div>
+        <div class="col-xs-6">
+          <img class="img-responsive" src="images/city-q-c-555-300-8.jpg" data-toggle="modal" alt="cityscape image" data-target="#appify2">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+        </div>
+      </div><!--row-text-center-->
+      <div class="row text-center">
+        <div class="col-xs-6">
+          <img class="img-responsive" src="images/colorful-women-555-300.jpg" data-toggle="modal" alt="colorful women image" data-target="#appify3">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+        </div>
+        <div class="co-xs-6">
+          <img class="img-responsive" src="images/nightlife-q-c-555-300-7.jpg" data-toggle="modal" alt="nightlife image" data-target="#appify4">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com/kaona">Nothing to see here</a></p>
+        </div>
+      </div>
+  </div>
+  </div>
+    <div class="row col-xs-12" id="contact">
+      <h1 class="text-center">Contact </h1></div>
+    <div class="row col-xs-6 ">
+      <div class="form-group">
+        <input type="text" class="form-control input-border" id="name" placeholder="Name" />
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control input-border" id="email" placeholder="Email"/>
+      </div>
+      <div class="form-group center">
+        <input type="text" class="form-control input-border" id="message" placeholder="Message"/>
+      </div>
+    </div>
+    <div class="col-xs-6" id="inquires">
+      <h2 style="center-text">All Serious Inquires Welcome</h2>
+    </div>
+  </div>
+      <!-- Modal -->
+        <div class="modal fade" id="appify1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appify1-text">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/placekitten.com-555-300.jpg" alt="kittens">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="appify2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appify2-text">2nd Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/city-q-c-555-300-8.jpg" alt="cityscape scene">
+                        This was my second project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="appify3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appify3-text">Another Favorite App</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/colorful-women-555-300.jpg" alt="colorful women">
+                        This was another project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-->
+        <div class="modal fade" id="appify4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appify4-text">Last Favorite App</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/nightlife-q-c-555-300-7.jpg" alt="nightlife scene">
+                        One last example project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-->
+        <div class="modal fade" id="main-image" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Last Favorite App</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://lorempixel.com/output/abstract-q-c-1140-350-3.jpg" alt="abstract art">
+                        This is just abstract art I thought you would like.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
